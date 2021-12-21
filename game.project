@@ -1,0 +1,34 @@
+[bootstrap]
+main_collection = /example/main.collectionc
+render = /example/scene3d/render.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 960
+height = 640
+high_dpi = 1
+vsync = 0
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = issue_mesh_spawn
+
+[input]
+game_binding = /builtins/input/all.input_bindingc
+
+[physics]
+type = 3D
+debug = 1
+scale = 0.01
+
+[graphics]
+texture_profiles = /example/basisu.texture_profiles
+
+[html5]
+scale_mode = fit
+engine_arguments = --verify-graphics-calls=false
+

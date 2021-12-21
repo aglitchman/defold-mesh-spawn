@@ -1,0 +1,9 @@
+local fps_ui = require("example.fps_ui")
+
+function init(self)
+    fps_ui.init(gui.get_node("fps_text"))
+end
+
+function update(self, dt)
+    fps_ui.update(dt)
+end
